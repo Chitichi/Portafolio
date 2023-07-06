@@ -1,0 +1,10 @@
+
+.container {
+    background-image: url(fondo.jpg)
+}
+
+.scroll {
+  overflow-y: scroll;
+  height: 100vh;
+  background-image: url(fondo.jpg)
+}
