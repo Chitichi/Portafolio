@@ -1,13 +1,15 @@
+import Link from "next/link";
+
 export default function Navbar() {
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
-          <a class="navbar-brand col-md-8" href="/">
+          <Link class="navbar-brand col-md-8" href="/">
             <strong>
               <h3>Giuliana Vazquez</h3>
             </strong>
-          </a>
+          </Link>
           <button
             class="navbar-toggler"
             type="button"
@@ -23,25 +25,25 @@ export default function Navbar() {
           <div class="navbar-collapse collapse " id="navbarColor01">
             <ul class="navbar-nav me-auto">
               <li class="nav-item ">
-                <a class="nav-link active " href="#sobremi">
+                <Link class="nav-link active " href="#sobremi">
                  <h5>Sobre mi</h5> 
                   <span class="visually-hidden">(current)</span>
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#tecno">
+                <Link class="nav-link" href="#tecno">
                   <h5>Tecnologias</h5>
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#proyectos">
+                <Link class="nav-link" href="#proyectos">
                   <h5>Proyectos</h5>
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contacto">
+                <Link class="nav-link" href="#contacto">
                   <h5>Contacto</h5>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

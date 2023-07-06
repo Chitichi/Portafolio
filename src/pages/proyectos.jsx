@@ -1,5 +1,6 @@
 import Navbar from "./navbar";
 import styles from "./api/estilos.module.css"
+import Link from "next/link";
 
 
 export default function Proyectos() {
@@ -27,13 +28,13 @@ export default function Proyectos() {
             </div>
             <div class="card-body lead">
               <a><strong>Codigo front-end: </strong></a>
-              <a href="https://github.com/Chitichi/PIDogs/tree/main/client" class="card-link text-white">
+              <Link href="https://github.com/Chitichi/PIDogs/tree/main/client" class="card-link text-white">
               https://github.com/Chitichi/PIDogs/tree/main/client
-              </a><br></br>
+              </Link><br></br>
               <a><strong>Codigo back-end: </strong></a>
-              <a href="https://github.com/Chitichi/PIDogs/tree/main/api" class="card-link text-white">
+              <Link href="https://github.com/Chitichi/PIDogs/tree/main/api" class="card-link text-white">
               https://github.com/Chitichi/PIDogs/tree/main/api
-              </a><br></br>
+              </Link><br></br>
             </div>
            
   </div>
@@ -53,19 +54,19 @@ export default function Proyectos() {
             </div>
             <div class="card-body lead">
               <a> <strong>Demo: </strong></a>
-              <a href="https://novelty-books.vercel.app/" class="card-link text-white">
+              <Link href="https://novelty-books.vercel.app/" class="card-link text-white">
                 https://novelty-books.vercel.app/
-              </a> <br></br>
+              </Link> <br></br>
               <a><strong>Codigo front-end: </strong></a>
-              <a href="https://github.com/Chitichi/PFFront" class="card-link text-white">
+              <Link href="https://github.com/Chitichi/PFFront" class="card-link text-white">
               https://github.com/Chitichi/PFFront 
-              </a><br></br>
+              </Link><br></br>
               <a><strong>Codigo back-end: </strong></a>
-              <a href="https://github.com/Arthaz1245/ProyectoFinalGrupo14Backend" class="card-link text-white">
+              <Link href="https://github.com/Arthaz1245/ProyectoFinalGrupo14Backend" class="card-link text-white">
               https://github.com/Arthaz1245/ProyectoFinalGrupo14Backend
-              </a><br></br>
+              </Link><br></br>
               <a><strong>YouTube: </strong></a>
-              <a href={linkYouTube} target="_blank" rel="noopener noreferrer" class="text-white">https://www.youtube.com/watch?v=6JF0WrhJlw0&t=18s</a>
+              <Link href={linkYouTube} target="_blank" rel="noopener noreferrer" class="text-white">https://www.youtube.com/watch?v=6JF0WrhJlw0&t=18s</Link>
 
             <br></br>
             </div>
