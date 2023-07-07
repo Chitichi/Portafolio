@@ -13,7 +13,7 @@ export default function Proyectos() {
               <img src="pidogs.jpeg" width="100%" height="80%" border="5px" />
 
               <div className="card-body">
-                <p className="card-text lead">
+                <p className="card-text lead text-center container d-flex justify-content-center mb-4 col-lg-4 col-md-6 col-sm-12 m-3">
                   Como parte de mi aprendizaje en programación, realicé un
                   proyecto individual llamado Henry Dogs. El mismo se trata de
                   una aplicación en la que podemos encontrar distintos perros
@@ -60,8 +60,8 @@ export default function Proyectos() {
                 border="5px"
               />
 
-              <div className="card-body">
-                <p className="card-text lead">
+              <div className="card-body ">
+                <p className="card-text lead text-center container d-flex justify-content-center mb-4 col-lg-4 col-md-6 col-sm-12 m-3">
                   Para concluir mis estudios como programador full stack
                   developer, realicé junto con un grupo de compañeros un
                   proyecto llamado Novelty Books. El objetivo de nuestro
