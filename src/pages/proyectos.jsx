@@ -60,7 +60,7 @@ export default function Proyectos() {
                 border="5px"
               />
 
-<div className="card-body container d-flex justify-content-center ">
+              <div className="card-body container d-flex justify-content-center ">
                 <p className="card-body lead text-center  mb-4 col-lg-4 col-md-6 col-sm-12 m-3">
                   Para concluir mis estudios como programador full stack
                   developer, realicé junto con un grupo de compañeros un
