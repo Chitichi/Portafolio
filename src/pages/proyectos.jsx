@@ -19,12 +19,12 @@ export default function Proyectos() {
                 </p>
               </div>
               <div className="card-body lead">
-                <a><strong>Código front-end: </strong></a>
+              <h4 className="card-body lead text-white "><strong>Código front-end: </strong></h4>
                 <Link href="https://github.com/Chitichi/PIDogs/tree/main/client" className="card-link text-white">
                   https://github.com/Chitichi/PIDogs/tree/main/client
                 </Link>
                 <br />
-                <a><strong>Código back-end: </strong></a>
+                <h4 className="card-body lead text-white "><strong>Código back-end: </strong></h4>
                 <Link href="https://github.com/Chitichi/PIDogs/tree/main/api" className="card-link text-white">
                   https://github.com/Chitichi/PIDogs/tree/main/api
                 </Link>
@@ -40,23 +40,23 @@ export default function Proyectos() {
                   Para concluir mis estudios como programador full stack developer, realicé junto con un grupo de compañeros un proyecto llamado Novelty Books. El objetivo de nuestro e-commerce fue que cualquier persona con acceso a una red de internet pudiera comprar el libro físico deseado. En este proyecto usamos tecnologías como JavaScript, MongoDB, Mongoose, Node, Express, Cloudinary, NodeMailer, React, Next, Next Auth, Stripe, Bootstrap, CSS y HTML5.
                 </p>
               </div>
-              <div className="card-body lead">
-                <a><strong>Demo: </strong></a>
+              <div className="card-body lead ">
+                <h4 className="card-body lead text-white "><strong> Demo: </strong></h4>
                 <Link href="https://novelty-books.vercel.app/" className="card-link text-white">
                   https://novelty-books.vercel.app/
                 </Link>
                 <br />
-                <a><strong>Código front-end: </strong></a>
+                <h4 className="card-body lead text-white "><strong>Código front-end: </strong></h4>
                 <Link href="https://github.com/Chitichi/PFFront" className="card-link text-white">
                   https://github.com/Chitichi/PFFront
                 </Link>
                 <br />
-                <a><strong>Código back-end: </strong></a>
+                <h4 className="card-body lead text-white "><strong>Código back-end: </strong></h4>
                 <Link href="https://github.com/Arthaz1245/ProyectoFinalGrupo14Backend" className="card-link text-white">
                   https://github.com/Arthaz1245/ProyectoFinalGrupo14Backend
                 </Link>
                 <br />
-                <a><strong>YouTube: </strong></a>
+                <h4 className="card-body lead text-white "><strong>YouTube: </strong></h4>
                 <Link href={linkYouTube} target="_blank" rel="noopener noreferrer" className="text-white">
                   https://www.youtube.com/watch?v=6JF0WrhJlw0&t=18s
                 </Link>
