@@ -62,8 +62,7 @@ export default function Proyectos() {
 
               <div className="card-body container d-flex justify-content-center ">
                 <p className="card-body lead text-center  mb-4 col-lg-4 col-md-6 col-sm-12 m-3">
-                  Para concluir mis estudios como programador full stack
-                  developer, realicé junto con un grupo de compañeros un
+                  Para concluir mis estudios como programador full stack, realicé junto con un grupo de compañeros un
                   proyecto llamado Novelty Books. El objetivo de nuestro
                   e-commerce fue que cualquier persona con acceso a una red de
                   internet pudiera comprar el libro físico deseado. En este

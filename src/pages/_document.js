@@ -10,12 +10,12 @@ export default function Document() {
           integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
           crossorigin="anonymous"
           />
-        <Link
+        {/*<Link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
-          />
+  />*/}
       </Head>
-      <body>
+      <body >
           <title>Giuliana Vazquez Portfolio</title>
         <Main />
         <NextScript />
