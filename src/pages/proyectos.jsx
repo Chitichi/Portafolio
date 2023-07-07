@@ -1,7 +1,6 @@
 
 import Link from "next/link";
 
-
 export default function Proyectos() {
   const linkYouTube = "https://www.youtube.com/watch?v=6JF0WrhJlw0&t=18s";
   return (
@@ -67,6 +66,16 @@ export default function Proyectos() {
           </div>
         </div>
       </div>
+
+      <style jsx>{`
+        @media (max-width: 768px) {
+          .container {
+            flex-direction: column;
+            align-items: center;
+          }
+        }
+      `}</style>
     </>
   );
 }
+
