@@ -6,7 +6,7 @@ import ScrollComponent from "./scroll";
 export default function Home() {
   return (
     <>
-      <Navbar />
+   
       {/*<Head>
         <title>Giuliana Vazquez Portfolio</title>
         <Link
