@@ -10,6 +10,8 @@ export default function Contacto() {
           <a
             href="https://www.linkedin.com/in/giulianavazquez/"
             className="card-link text-white"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img
               src="/linkedin.png"
@@ -22,6 +24,8 @@ export default function Contacto() {
           <a
             href="https://github.com/Chitichi"
             className="card-link text-white"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img
               src="/github.png"
@@ -34,6 +38,8 @@ export default function Contacto() {
           <a
             href="https://wa.me/qr/BYPBGLHLDUQFE1"
             className="card-link text-white"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img
               src="/whats.png"

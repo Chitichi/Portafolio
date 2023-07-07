@@ -10,7 +10,9 @@ import Navbar from "./navbar";
 export default function ScrollComponent() {
   return (
     <div className={styles.scroll}>
-      <Navbar/><br></br><br></br>
+      <Navbar />
+      <br></br>
+      <br></br>
       <SobreMi /> <br></br>
       <Linea />
       <Tecnologias />
