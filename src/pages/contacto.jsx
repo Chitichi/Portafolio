@@ -15,8 +15,8 @@ export default function Contacto() {
           >
             <img
               src="/linkedin.png"
-              width="60px"
-              height="60px"
+              width="90px"
+              height="90px"
               border="0px"
               className="mb-4"
             />
@@ -43,8 +43,8 @@ export default function Contacto() {
           >
             <img
               src="/whats.png"
-              width="60px"
-              height="60px"
+              width="90px"
+              height="90px"
               border="0px"
               className="mb-4"
             />

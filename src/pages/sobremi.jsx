@@ -18,27 +18,13 @@ export default function SobreMi() {
                 comprometida, estoy emocionada por la oportunidad de contribuir
                 a proyectos desafiantes en el futuro.
               </h4>
-              <a
-                href="/cv.pdf"
-                className="card-link text-white"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="/cv.png"
-                  width="80px"
-                  height="80px"
-                  border="0px"
-                  className="mb-4"
-                />
-              </a>
             </div>
           </div>
           <div className="text-center text-white col-md-6 d-none d-md-block">
             <img
               src="/foto.jpeg"
-              width="420px"
-              height="420px"
+              width="350px"
+              height="350px"
               border="2px"
               className="rounded-circle img-fluid"
             />

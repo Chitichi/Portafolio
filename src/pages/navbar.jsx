@@ -5,11 +5,21 @@ export default function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container-fluid">
-          <Link className="navbar-brand col-md-8" href="/">
-            <strong>
-              <h3>Giuliana Vazquez</h3>
-            </strong>
+          <Link className="navbar-brand" href="/cv.pdf" target="_blank"
+                rel="noopener noreferrer">
+            <div className="d-flex align-items-center">
+              <strong>Giuliana Vazquez</strong>
+              <img
+                src="/cv.png"
+                width="60px"
+                height="60px"
+                className="ms-2"
+                alt="CV"
+              />
+              
+            </div>
           </Link>
+
           <button
             className="navbar-toggler"
             type="button"
@@ -22,10 +32,10 @@ export default function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div className="navbar-collapse collapse " id="navbarColor01">
-            <ul className="navbar-nav me-auto">
-              <li className="nav-item ">
-                <Link className="nav-link active " href="#sobremi">
+          <div className="collapse navbar-collapse" id="navbarColor01">
+            <ul className="navbar-nav ms-auto">
+              <li className="nav-item">
+                <Link className="nav-link active" href="#sobremi">
                   <h5>Sobre mi</h5>
                   <span className="visually-hidden">(current)</span>
                 </Link>
