@@ -14,11 +14,7 @@ export default function Proyectos() {
 
               <div className="card-body container d-flex justify-content-center ">
                 <p className="card-body lead text-center  mb-4 col-lg-4 col-md-6 col-sm-12 m-3">
-                  Actualmente me encuentro desarrollando una aplicación destinada a la organización económica mensual.
-                  Esta app te permite llevar un registro claro y consistente de los gastos que realizas en el mes, agrupa dichos gastos en distintas categorías existentes, o bien si lo necesitas podrías crear una, y luego te muestra un detalle mensual de cada gasto que haz realizado. Tienes la posibilidad de agregar medios de pago, asi como tambien calcular en el momento los descuentos o recargos que tengan los productos que vas a adquirir. La idea principal de esta herramienta surgió debido a los cambios repentinos de precios en mi país, creando en mi la necesidad de poder hacer las cuentas de las compras antes de llegar a la caja registradora.
-                   De esta manera llevo un calculo presiso sin necesidad de multiples listas y calculadoras.
-                   Ademas, implemente un chatbot que ayuda al usuario con los conceptos básicos de la aplicación, facilitando su uso.
-                   Aún me encuentro trabajando en ella! 
+                Actualmente me encuentro desarrollando una aplicación destinada a la organización económica mensual. Esta app te permite llevar un registro claro y consistente de los gastos que realizas en el mes, agrupa dichos gastos en distintas categorías existentes, o bien si lo necesitas podrías crear una, y luego te muestra un detalle mensual de cada gasto que haz realizado. Tienes la posibilidad de agregar medios de pago, así como también calcular en el momento los descuentos o recargos que tengan los productos que vas a adquirir. La idea principal de esta herramienta surgió debido a los cambios repentinos de precios en mi país, creando en mi la necesidad de poder hacer las cuentas de las compras antes de llegar a la caja registradora. De esta manera llevo un calculo preciso sin necesidad de múltiples listas y calculadoras. Además, implemente un chatbot que ayuda al usuario con los conceptos básicos de la aplicación, facilitando su uso. Aún me encuentro trabajando en ella!
                 </p>
               </div>
               <div className="card-body lead">
